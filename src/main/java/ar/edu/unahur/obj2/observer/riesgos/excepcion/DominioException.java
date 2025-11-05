@@ -1,4 +1,4 @@
-package ar.edu.unahur.obj2.observer.excepcion;
+package ar.edu.unahur.obj2.observer.riesgos.excepcion;
 
 public class DominioException extends RuntimeException{
 

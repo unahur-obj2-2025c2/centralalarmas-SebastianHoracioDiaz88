@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import ar.edu.unahur.obj2.observer.excepcion.DominioException;
+import ar.edu.unahur.obj2.observer.riesgos.excepcion.DominioException;
 
 public class Central implements Observable{
 

@@ -45,6 +45,8 @@ public class Entidad implements Observador {
       return alertasRecibidas.isEmpty() ? 0.00 : criterioRiesgo.obtenerRiesgo(alertasRecibidas);
     }
 
-
+    public Integer cantidadDeAlertasRecibdas() {
+        return alertasRecibidas.size();
+    }
 
 }
