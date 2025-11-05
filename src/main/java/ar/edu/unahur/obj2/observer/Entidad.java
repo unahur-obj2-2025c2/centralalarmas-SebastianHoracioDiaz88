@@ -13,13 +13,11 @@ public class Entidad implements Observador {
     private Criterio criterioRiesgo = new RiesgoCritico();
 
     
-
     public Entidad(String nombre) {
         this.nombre = nombre;
     }
 
-    
-
+  
     public List<Alerta> getAlertasRecibidas() {
         return alertasRecibidas;
     }
